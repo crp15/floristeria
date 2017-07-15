@@ -46,4 +46,16 @@ and open the template in the editor.
    #pie img{
        width: 30px;
    }
-   
+   /*Aqui estamos definiendo el mismo color y tamano de letra para los enlaces*/
+   a:link, a:visited {
+       font-size: 25px;
+    background: chartreuse;
+    text-decoration: none;
+   }
+   a:hover{
+       background:blue;
+       color: chartreuse;
+   }
+   #menu ul li:hover{
+       background:blue;
+   }
